@@ -1,0 +1,31 @@
+{
+  "name": "contacts-frontend-mithril-flux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node proxy/index.js",
+    "build": "parcel build src/index.html --experimental-scope-hoisting",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquericcio/contacts-frontend-mithril-flux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriquericcio/contacts-frontend-mithril-flux/issues"
+  },
+  "homepage": "https://github.com/henriquericcio/contacts-frontend-mithril-flux#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "flux": "^3.1.3",
+    "mithril": "^2.0.4"
+  }
+}
