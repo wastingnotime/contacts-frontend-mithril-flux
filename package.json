@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node proxy/index.js",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html --experimental-scope-hoisting",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/henriquericcio/contacts-frontend-mithril-flux#readme",
   "devDependencies": {
-    "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.4",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
