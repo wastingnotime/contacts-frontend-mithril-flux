@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henriquericcio/contacts-frontend-mithril-flux.git"
+    "url": "git+https://github.com/wastingnotime/contacts-frontend-mithril-flux.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/henriquericcio/contacts-frontend-mithril-flux/issues"
+    "url": "https://github.com/wastingnotime/contacts-frontend-mithril-flux/issues"
   },
-  "homepage": "https://github.com/henriquericcio/contacts-frontend-mithril-flux#readme",
+  "homepage": "https://github.com/wastingnotime/contacts-frontend-mithril-flux#readme",
   "devDependencies": {
    "parcel": "^2.11.0"
   },
