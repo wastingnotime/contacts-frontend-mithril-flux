@@ -1,7 +1,7 @@
 import m from 'mithril'
 import { GET_ALL_CONTACTS, CREATE_CONTACT, UPDATE_CONTACT, GET_CONTACT, DELETE_CONTACT } from './actionsTypes'
 
-const URL_BASE = '/contacts'
+const URL_BASE = '/api/contacts'
 const isProduction = process.env.NODE_ENV === 'production'
 
 export default function(dispatcher) {
