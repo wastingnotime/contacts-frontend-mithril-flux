@@ -34,3 +34,7 @@ node_modules/
 
 # parcel-bundler build
 dist
+
+# ide's
+.idea
+.vscode
