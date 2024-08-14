@@ -1,24 +1,29 @@
 # contacts-frontend-mithril-flux
 
-Part of contacts project that aim for a benchmark thought technologies.
 
-## what is it for?
+**contacts-frontend-mithril-flux** is part of "contacts" project that is an initiative where we try to explore frontend and backend implementations in order to better understand it cutting-edge features. This repository presents a mithriljs based frontend application.
 
-This project validates:
-* frontend
+## stack
 * mithriljs
 * flux
+
+## features
+* small footprint
 
 
 ## depencencies
 * docker 25+
 * nvm 0.39+
 
-## getting started
+## get started (linux only)
+
+### execute from source code 
+
+as a prerequisite it is necessary to start the backend application
 
 open another terminal and run the backend for this project
 ```
-docker run -p 8010:8010 wastingnotime/contacts-backend:latest
+docker run -p 8010:8010 wastingnotime/contacts-backend-go-echo
 ```
 
 set node version (v21+)
@@ -38,18 +43,6 @@ npm start
 
 * just go to your browser on http://localhost:1234
 
-
-## validating docker image locally
-
-build
-```
-docker build --tag contacts.frontend.mithril.flux .
-```
-
-run
-```
-docker run -p 80:80 contacts.frontend.mithril.flux
-```
 
 ## some tips
 
