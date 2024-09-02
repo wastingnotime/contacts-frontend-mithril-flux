@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/wastingnotime/contacts-frontend-mithril-flux#readme",
   "devDependencies": {
-   "parcel": "^2.11.0"
+    "parcel": "^2.11.0"
   },
   "dependencies": {
     "flux": "^4.0.4",
