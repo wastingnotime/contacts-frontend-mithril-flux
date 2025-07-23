@@ -43,6 +43,18 @@ npm start
 
 * just go to your browser on http://localhost:1234
 
+## validating docker image locally
+
+build
+```
+docker build --tag contacts-frontend-mithril-flux .
+```
+
+run
+```
+docker run -p 80:80 contacts-frontend-mithril-flux
+```
+* the test above do not work fully, it is just to show if the nginx server as responding accordly
 
 ## some tips
 
